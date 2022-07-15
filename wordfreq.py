@@ -29,7 +29,7 @@ class Solution:
     def hi_finder(self, hi_string):
         if hi_string is None:
             return 0
-        return hi_string.count('hi')
+        return hi_string.lower().count('hi')
         # TODO: Write code below to return an int with the solution to the prompt
 
 
